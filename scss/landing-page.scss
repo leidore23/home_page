@@ -1,0 +1,23 @@
+// Core variables and mixins
+@import "variables.scss";
+@import "mixins.scss";
+// Global CSS
+@import "global.scss";
+// Components
+@import "masthead.scss";
+@import "showcase.scss";
+@import "icons.scss";
+@import "testimonials.scss";
+@import "call-to-action.scss";
+@import "footer.scss";
+@import "_utils.scss";
+@import "_home_video.scss";
+
+search-home__span {
+    //display: block;
+    font-size: 1.7rem;
+    //margin: .5rem 0;
+    //width: 100%;
+}
+
+

@@ -1,0 +1,363 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@leidore23 
+1
+0 0 smart145/website-avsparessolutions Private
+ Code  Issues 0  Pull requests 0  Wiki  Security  Insights
+website-avsparessolutions/css/landing-page.min.css
+@leidore23 leidore23 changes section video
+b08c5fc 1 hour ago
+253 lines (207 sloc)  5.51 KB
+    
+/*!
+ * Start Bootstrap - Landing Page v5.0.0 (https://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}
+ 
+    h1,h2,h3,h4,h5,h6{ 
+    font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;
+     font-weight:700
+    }
+
+    header.masthead{
+      position:relative;
+      background-color:#343a40;background:url(../img/avion_despege.jpg) no-repeat center center;
+      background-size:cover;padding-top:8rem;
+      padding-bottom:8rem
+    }
+
+    header.masthead .overlay{
+        position:absolute;background-color:#212529;
+        height:100%;
+        width:100%;
+        top:0;
+        left:0;
+        opacity:.3
+    }
+
+    header.masthead h1{
+        font-size:2rem
+    }@media (min-width:768px)
+    {
+        header.masthead{
+            padding-top:12rem;
+            padding-bottom:12rem
+        }
+        header.masthead h1{
+            font-size:3rem
+        }
+    }
+    
+    .showcase .showcase-text{
+        padding:3rem
+    }
+    
+    .showcase .showcase-img{
+
+        min-height:30rem;
+        background-size:cover
+    }@media (min-width:768px){
+
+        .showcase .showcase-text{
+            padding:7rem
+        }
+    }
+    
+    .features-icons{
+        padding-top:7rem;
+        padding-bottom:7rem
+    }
+    
+    .features-icons .features-icons-item{
+        max-width:20rem
+    }
+    
+    .features-icons .features-icons-item .features-icons-icon{
+        height:7rem
+    }
+    
+    .features-icons .features-icons-item .features-icons-icon i{
+        font-size:4.5rem
+    }
+
+    .features-icons .features-icons-item:hover .features-icons-icon i{
+        font-size:5rem
+    }
+    
+    .testimonials{
+        padding-top:7rem;
+        padding-bottom:7rem
+    }
+    
+    .testimonials .testimonial-item{
+        max-width:18rem
+    }
+
+    .testimonials .testimonial-item img{
+        max-width:12rem;-webkit-box-shadow:0 5px 5px 0 #adb5bd;box-shadow:0 5px 5px 0 #adb5bd
+    }
+
+    .call-to-action{
+        position:relative;
+        background-color:#343a40;background:url(../img/bg-masthead.jpg) no-repeat center center;
+        background-size:cover;padding-top:7rem;padding-bottom:7rem
+    }
+    .call-to-action .overlay{
+        position:absolute;
+        background-color:#212529;
+        height:100%;
+        width:100%;
+        top:0;
+        left:0;
+        opacity:.3
+    }
+
+    .business{
+        position:relative;
+        background-color:#343a40;background:url(../img/bg-business.jpg) no-repeat center center;
+        background-size:cover;
+        padding-top:1rem;
+        padding-bottom:1rem
+    }
+    .business .overlay{
+        position:absolute;
+        background-color:#212529;
+        height:100%;
+        width:100%;
+        top:0;
+        left:0;
+        opacity:.3
+    }
+
+    .business .render-play{
+
+        max-width: 10%; 
+        padding-bottom: 8px;
+        
+    }
+
+    .business .home-video .yt-video-box .yt-video-container .yt-video-poster .yt-video-play{        
+        width:90px;
+    }
+
+    .business .ld-bg-opacity{
+        background:transparent;
+    }
+
+    .business .img-video-container{
+        height:100px;
+        width:100px;
+        border:5px solid white;
+        line-height:1;
+        border-radius:12px;
+        
+    }
+
+    .business .img-video-container .img{
+            width:30px;
+            height:40px;
+            position:relative;
+            top:22px;
+            left:5px;
+        }
+
+        .business h2{
+            font-size:32px;
+            color:#FFA401;        
+         
+        }
+
+        .business .span{
+            background-color:darkblue;  
+          }
+
+          .business  .font-size-30{
+            font-size:30px;
+            line-height:1.1;
+        }
+        @media(max-width:991.51515151px){
+            text-align:center
+            h2{
+                font-size:28px;
+            }
+            .font-size-30{
+                font-size:28px;
+            }
+        }
+
+        .business .yt-video-box-inside{
+            box-shadow:0px 8px 22px rgba(0,0,0,0.55);
+        }
+
+
+    
+        .business .ld-bg-image {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 200px;
+          }
+
+          .business .position-video{
+                  /* align-items: center; */
+            position: absolute;
+           top: 100px;
+            left: 210px;
+            border: 5px;
+          }
+    footer.footer{
+        padding-top:4rem;
+        padding-bottom:4rem
+    }  
+
+
+    /*
+    footer
+    background: #8fabc3;
+    border-radius: 100px;
+    width: 30px;
+    line-height: 55px;
+    font-size: 17px;
+    margin: 0 2px;
+    text-align: center;
+    */
+
+       
+    .social-media .i{
+        color: #212529;
+        font-size: 17px;
+    }
+
+    .social-media .i .row{
+        justify-content: center;
+        @include media-breakpoint-up(md) {
+            justify-content: flex-start;
+        }        
+    }
+
+    .social-media .i .row  .a .col-auto{
+        background: #8fabc3;
+        border-radius: 30px;
+        width: 35px;
+        line-height: 35px;
+        font-size: 17px;
+        margin: 0 2px;
+        text-align: center;
+    }
+
+    
+    .cid-qwwNJ3yqEe {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        background-color: #2e2e2e;
+      }
+      @media (max-width: 767px) {
+        .cid-qwwNJ3yqEe .content {
+          text-align: center;
+        }
+        .cid-qwwNJ3yqEe .content > div:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+      }
+      @media (max-width: 767px) {
+        .cid-qwwNJ3yqEe .media-wrap {
+          margin-bottom: 1rem;
+        }
+      }
+      .cid-qwwNJ3yqEe .media-wrap .mbr-iconfont-logo {
+        font-size: 7.5rem;
+        color: #f36;
+      }
+      .cid-qwwNJ3yqEe .media-wrap img {
+        height: 6rem;
+      }
+      @media (max-width: 767px) {
+        .cid-qwwNJ3yqEe .footer-lower .copyright {
+          margin-bottom: 1rem;
+          text-align: center;
+        }
+      }
+      .cid-qwwNJ3yqEe .footer-lower hr {
+        margin: 1rem 0;
+        border-color: #fff;
+        opacity: .05;
+      }
+      .cid-qwwNJ3yqEe .footer-lower .social-list {
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+      }
+      .cid-qwwNJ3yqEe .footer-lower .social-list .mbr-iconfont-social {
+        font-size: 1.3rem;
+        color: #fff;
+      }
+      .cid-qwwNJ3yqEe .footer-lower .social-list .soc-item {
+        margin: 0 .5rem;
+      }
+      .cid-qwwNJ3yqEe .footer-lower .social-list a {
+        margin: 0;
+        opacity: .5;
+        -webkit-transition: .2s linear;
+        transition: .2s linear;
+      }
+      .cid-qwwNJ3yqEe .footer-lower .social-list a:hover {
+        opacity: 1;
+      }
+      @media (max-width: 767px) {
+        .cid-qwwNJ3yqEe .footer-lower .social-list {
+          justify-content: center;
+          -webkit-justify-content: center;
+        }
+      }
+
+      /*
+      video generico
+      */
+    
+      .cid-rbbkYr1R7S {
+        background: #12447b;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        max-width: 400px;
+        height: auto;
+      }
+      .cid-rbbkYr1R7S .video-block {
+        margin: auto;
+      }
+      @media (max-width: 768px) {
+        .cid-rbbkYr1R7S .video-block {
+          width: 100% !important;
+        }
+      }
+  
+    
+
+    /*
+    carrousel
+    */
+
+    
+  
+
+      
+    
+    /*
+    generales
+    */
+
+
+    
+
+

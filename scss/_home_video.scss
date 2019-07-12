@@ -1,0 +1,53 @@
+.business{
+    .home-video{
+        .yt-video-box .yt-video-container .yt-video-poster .yt-video-play{
+        width:90px;
+    }
+    .ld-bg-opacity{
+        background:transparent;
+    }
+
+    .render-play{
+        max-width: 10%; 
+        padding-bottom: 8px;
+    }
+    .img-video-container{
+        height:90px;
+        width:90px;
+        border:3px solid white;
+        line-height:1;
+        border-radius:50px;
+        img{
+            width:30px;
+            height:40px;
+            position:relative;
+            top:22px;
+            left:5px;
+        }
+    }
+    h2{
+        font-size:32px;
+        color:#FFA401;
+        span{
+          background-color:$autofact-dark-blue;  
+        };
+        
+    }
+    .font-size-30{
+        font-size:30px;
+        line-height:1.1;
+    }
+    @media(max-width:991.51515151px){
+        text-align:center;
+        h2{
+            font-size:28px;
+        }
+        .font-size-30{
+            font-size:28px;
+        }
+    }   
+    .yt-video-box-inside{
+        box-shadow:0px 8px 22px rgba(0,0,0,0.55);
+    }
+   }
+}
