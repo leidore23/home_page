@@ -1,3 +1,4 @@
 home page with bootstrap 
-npm install
-npm start
+introduction:
+1-npm install.
+2-npm start.
